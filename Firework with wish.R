@@ -1,4 +1,4 @@
-setwd("~/Downloads/Penn Projects/R")
+
 library(ggplot2)
 
 # First firework
@@ -86,7 +86,3 @@ ggplot() + theme(panel.background = element_rect(fill = '#121111', colour = '#12
     plot.subtitle = element_text(hjust = 0.5),         
     plot.caption = element_text(hjust = 1, face = "italic")
   )
-
-#+ geom_curve(aes(x = 0, y = -7, xend = f1_center[1], yend = f1_center[4] ), curvature = 0.8, colour = '#f5f2f2    
-#geom_curve(aes(x = 0, y = -7, xend = f2_center[1], yend = f2_center[4] ), curvature = -0.3, colour = '#f5f2f2
-#geom_curve(aes(x = 0, y = -7, xend = f3_center[1], yend = f3_center[4] ), curvature = -0.8, colour = '#f5f2f2') + 
